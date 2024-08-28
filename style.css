@@ -1,0 +1,131 @@
+body {
+    background-color: #1e1e1e;
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+    gap: 20px; 
+    padding: 20px; 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+}
+
+.cursors {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 5vh;
+    box-shadow: 5px 5px 15px black;
+    color: #000;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#default {
+    cursor: default;
+}
+#pointer {
+    cursor: pointer;
+}
+#wait {
+    cursor: wait;
+}
+#help {
+    cursor: help;
+}
+#crosshair {
+    cursor: crosshair;
+}
+#progress {
+    cursor: progress;
+}
+#cell {
+    cursor: cell;
+}
+#text {
+    cursor: text;
+}
+#vertical-text {
+    cursor: vertical-text;
+}
+#alias {
+    cursor: alias;
+}
+#copy {
+    cursor: copy;
+}
+#move {
+    cursor: move;
+}
+#no-drop {
+    cursor: no-drop;
+}
+#not-allowed {
+    cursor: not-allowed;
+}
+#grab {
+    cursor: grab;
+}
+#grabbing {
+    cursor: grabbing;
+}
+#all-scroll {
+    cursor: all-scroll;
+}
+#col-resize {
+    cursor: col-resize;
+}
+#row-resize {
+    cursor: row-resize;
+}
+#n-resize {
+    cursor: n-resize;
+}
+#e-resize {
+    cursor: e-resize;
+}
+#s-resize {
+    cursor: s-resize;
+}
+#w-resize {
+    cursor: w-resize;
+}
+#ne-resize {
+    cursor: ne-resize;
+}
+#sw-resize {
+    cursor: sw-resize;
+}
+#ew-resize {
+    cursor: ew-resize;
+}
+#ns-resize {
+    cursor: ns-resize;
+}
+#nesw-resize {
+    cursor: nesw-resize;
+}
+#nwse-resize {
+    cursor: nwse-resize;
+}
+#zoom-in {
+    cursor: zoom-in;
+}
+#zoom-out {
+    cursor: zoom-out;
+}
